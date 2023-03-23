@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
 .table-container {
-   overflow: scroll;
     margin-top: 78px;
-    background: #FFFFFF;
+    border: 2px solid;
     border-radius: 12px;
     max-width: 95%;
-    margin: auto;
+    overflow: scroll;
 }
 .user-table{
     width: 2000px !important;
+
 }
 .user-id{
     width: 200px;
@@ -30,10 +30,9 @@
     margin-right: -4px;
 }
 
-.tr:hover {
+.user-table-row:hover {
     background: rgba(234, 234, 234, 0.4);
 }
-
 .user-table-heading {
     font-family: 'Manrope';
     font-style: normal;
