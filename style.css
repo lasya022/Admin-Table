@@ -57,3 +57,70 @@
     font-size: 12px;
     line-height: 16px;
 }
+.Dismiss-btn{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+background-color: transparent;
+border: 1px solid #F24726;
+color: #F24726;
+width: 108px;
+height: 38px;
+
+}
+.Add-User-btn{
+    color: #E6FFFE;
+background: #000000;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+width: 108px;
+height: 38px;
+}
+.form-inputs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.checkbox{
+    width: auto;
+}
+.title{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+input{
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+
+}
+select{
+
+    width: 300px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+
+}
+label{
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+
+color: rgba(0, 0, 0, 0.72);
+
+}
